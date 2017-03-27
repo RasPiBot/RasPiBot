@@ -55,7 +55,7 @@ class RasPiBot:
          self.listAngle[servoNumber] = self.listAngle[servoNumber] + angle
          self.pwm.setPWM(servoNumber,50,pulseLength)
 
-   def GoToDegres(self, servoNumber, angle):
+   def MoveTo(self, servoNumber, angle):
       if(servoNumber < 0 or servoNumber > 15):
          print("Invalid servo number (0-15)")
       elif (angle <-90 or angle > 90):
@@ -72,7 +72,7 @@ class RasPiBot:
   # motor = int(raw_input())
   # print("Rotation angle between -90 and 90:")
   # ang = int(raw_input())
-  # robot.GoToDegres(motor,ang)
+  # robot.MoveTo(motor,ang)
   # robot.Rotate(motor,ang)
 
 
