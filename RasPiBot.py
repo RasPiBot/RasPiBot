@@ -2,7 +2,7 @@
 
 from Adafruit_PWM_Servo_Driver import PWM
 import time
-
+from time import sleep
 class RasPiBot:
 
    #=========================================================================
@@ -46,17 +46,33 @@ class RasPiBot:
       return ((degrees - in_min) * (out_max - out_min) / (in_max - in_min) + out_min)
 
    def Rotate(self,servoNumber,angle):
-      if(servoNumber <0 or servoNumber >15):
+      if(servoNumber < 0 or servoNumber > 15):
          print("Invalid servo number (0-15)")
-      elif (angle <-90 or angle >90):
+      elif (angle <- 90 or angle > 90):
          print("Invalid rotation angle (-90 - 90")
       else:
          pulseLength = self.DegreesToPulseLength(angle+self.listAngle[servoNumber],self.minAngle,self.maxAngle,self.servoMin,self.servoMax)
          self.listAngle[servoNumber] = self.listAngle[servoNumber] + angle
          self.pwm.setPWM(servoNumber,50,pulseLength)
 
-robot = RasPiBot()
-robot.Rotate(RasPiBot.NECK , 15)
+   def GoToDegres(self, servoNumber, angle):
+      if(servoNumber < 0 or servoNumber > 15):
+         print("Invalid servo number (0-15)")
+      elif (angle <-90 or angle > 90):
+         print("Invalid angle (-90 - 90)")
+      else:
+         pulseLength = self.DegreesToPulseLength(angle, self.minAngle, self.maxAngle, self.servoMin, self.servoMax)
+         self.listAngle[servoNumber] = angle
+         self.pwm.setPWM(servoNumber,50,pulseLength)
 
+#Example
+#robot = RasPiBot()
+#while True:
+  # print("Wich motor do you want to move?")
+  # motor = int(raw_input())
+  # print("Rotation angle between -90 and 90:")
+  # ang = int(raw_input())
+  # robot.GoToDegres(motor,ang)
+  # robot.Rotate(motor,ang)
 
 
