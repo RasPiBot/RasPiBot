@@ -1,0 +1,274 @@
+/*-----------------------------------------------------------------------------------
+	COLORS:
+	
+	default font color			#dadada
+	light font color				#666666
+	dark font color				#ffffff
+	
+	body background				#262626
+	header background				#1a1a1a
+		
+	main color						#4da5f5
+	
+-----------------------------------------------------------------------------------*/
+
+
+body { color:#dadada; background: #262626; }
+
+
+/* Headings
+---------------------------------------- */
+h1, h2, h3, h4, h5, h6 { color: #ffffff; }
+.text-dark h1, .text-dark h2, .text-dark h3, .text-dark h4, .text-dark h5, .text-dark h6 { color: #262626; }
+.subtitle { color: #dadada; }
+.text-dark .subtitle { opacity: 0.85; filter: alpha(opacity=85);	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)"; }
+
+
+/* Forms
+---------------------------------------- */
+input[type=text], input[type=password], input[type=email], textarea { background: #1a1a1a; border-color: #4d4d4d; color:#666666; }
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, textarea:focus { border-color: #ffffff; }
+input[type=submit] { color: #262626;	 background: #ffffff; }
+input[type=submit]:hover { color: #ffffff; }
+label { color: #ffffff; }
+
+
+/* Links
+---------------------------------------- */
+a:hover { color: #ffffff; }	
+.text-dark a:hover { color: #262626; }
+
+
+/* Others
+---------------------------------------- */
+blockquote { color: #ffffff; border-color: #4d4d4d; }
+pre, code { border-color: #4d4d4d; color: #ffffff; }
+
+
+/*---------------------------------------------- 
+2. GENERAL ELEMENTS
+------------------------------------------------*/
+.text-dark { color: #262626; }	
+
+
+/*---------------------------------------------- 
+3. HEADER
+------------------------------------------------*/
+header { background: #1a1a1a; }
+
+
+/*---------------------------------------------- 
+4. PAGE_LOADER
+------------------------------------------------*/
+#page-loader { background: #1a1a1a; }
+
+
+/*---------------------------------------------- 
+4. FOOTER
+------------------------------------------------*/
+footer { background: #1a1a1a; }
+footer .copyright { color: #cccccc; }
+	
+
+/*---------------------------------------------- 
+6. NAVIGATION & MENU
+------------------------------------------------*/
+nav#main-nav > ul > li > a  { color: #ffffff; }
+nav#main-nav ul li .sub-menu { background: #ffffff; } 
+nav#main-nav ul .sub-menu li a { color: #666666; }
+nav#main-nav ul .sub-menu > li:hover > a, nav#main-nav ul .sub-menu > li.current-menu-item > a { color: #1a1a1a; }
+
+
+/* control nav when fixed & scrolled */
+nav#menu-controls > ul > li a  { color: #ffffff; }
+nav#menu-controls > ul > li a span.c-dot  { background: #ffffff; }
+
+
+/* responsive nav on mobile view */	
+.open-responsive-nav span { background-position: -380px 0;	}
+#menu-responsive { background: #ffffff; }
+nav#responsive-nav > ul { border-color: #d9d9d9; }
+nav#responsive-nav ul li { border-color: #d9d9d9; }
+nav#responsive-nav > ul li > a { color: #666666; }
+nav#responsive-nav > ul > li:hover > a, nav#responsive-nav > ul > li.current-menu-item > a { color: #1a1a1a; }	
+nav#responsive-nav .sub-menu li a { color: #666666; }
+	
+
+
+/*---------------------------------------------- 
+11. PORTFOLIO
+------------------------------------------------*/
+.portfolio-name a { color: #ffffff; }
+#portfolio-single { background: #1a1a1a; }
+
+	
+/* Portfolio Single Pagination
+------------------------------- */	
+.single-pagination li a { opacity: 0.5; filter: alpha(opacity=50); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; }
+.single-pagination li.next a { background-position: -160px 0px; }
+.single-pagination li.prev a { background-position: -190px 0px; }
+
+
+/*---------------------------------------------- 
+12. PORTFOLIO AJAX
+------------------------------------------------*/
+.close-project a { background-position: -280px 0px; opacity: 0.5; filter: alpha(opacity=50); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; }
+
+
+/*---------------------------------------------- 
+13. FILTER
+------------------------------------------------*/
+.filter li a { color: #ffffff; }
+	
+
+/*---------------------------------------------- 
+14. BLOG
+------------------------------------------------*/
+.blog-entry { border-color: #4d4d4d; }
+.blog-date { color: #ffffff; }
+.blog-headline .post-name a { color: #ffffff; }
+.blog-headline .post-meta { color: #666666; }
+.blog-headline .post-meta a { color: #666666; }
+.blog-headline .post-meta a:hover {	color: #ffffff; }
+.readmore-button { color: #ffffff; border-color: #ffffff; }
+
+	
+/* Blog Quote post & Link post 
+----------------------------*/
+.blog-content .quote-author, .blog-content .link-name { color: #666666; }	
+	
+	
+/* Blog comments 
+----------------------------*/
+#blog-comments { border-color: #4d4d4d; }
+#blog-comments .comment { border-color: #4d4d4d; }
+#blog-comments .comment-date { color: #666666; }
+	
+
+/* Blog Pagination 
+----------------------------*/
+#entries-pagination { border-color: #4d4d4d; }
+#entries-pagination li a { opacity: 0.5; filter: alpha(opacity=50); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; }
+#entries-pagination li.next a { background-position: -160px 0px; }
+#entries-pagination li.prev a { background-position: -190px 0px; }
+	
+
+/*	Buttons
+------------------------------------------------*/	
+a.sr-button:hover { background-color: #ffffff; color : #1a1a1a; }
+a.sr-button1 {	border-color: #666666; color: #ffffff;	 }
+a.sr-button1:hover { border-color: #ffffff; background-color: #ffffff; color: #1a1a1a; }
+a.sr-button2 {	border-color: #ffffff; color: #ffffff;	 }
+a.sr-button2:hover { background-color: #ffffff; color: #1a1a1a; }
+a.sr-button3:hover { color: #ffffff; }
+a.sr-buttonicon { border-color: #ffffff; color: #ffffff; }
+a.sr-buttonicon:hover { color: #1a1a1a; }
+.text-dark a.sr-buttonicon  { border-color: #1a1a1a; color: #1a1a1a; }
+.text-dark a.sr-buttonicon:hover { background: #1a1a1a; color: #ffffff; }
+
+	
+/*	seperator
+------------------------------------------------*/
+.seperator span { background: #ffffff; opacity: 0.2; filter: alpha(opacity=20);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)"; }
+.text-dark .seperator span { background: #000000; opacity: 0.15; filter: alpha(opacity=15);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=15)"; }
+
+
+/*	Tabs
+------------------------------------------------*/
+.tabs ul.tab-nav li a { color: #ffffff; }
+
+
+/*	Toggle/Accordion
+------------------------------------------------*/
+.toggle-item .toggle-title .toggle-icon .fa { color: #ffffff; }
+
+
+/*	Skills
+------------------------------------------------*/	
+.skill .skill-bar { background: #4d4d4d; }
+.text-dark .skill .skill-bar { background: #d9d9d9; }
+.tooltip { color: #1a1a1a; background: #ffffff; }
+.text-dark .tooltip { color: #ffffff; background: #1a1a1a; }
+.tooltip:after { border-color: #ffffff transparent transparent transparent; }
+.text-dark .tooltip:after { border-color: #1a1a1a transparent transparent transparent; }
+
+
+/*	Pricing Table
+------------------------------------------------*/	
+.pricing-table { background: #1a1a1a; border-color: #4d4d4d; }
+.text-dark .pricing-table { background: #ffffff; border-color: #d9d9d9; }
+.price { color: #ffffff; }
+.text-dark .price { color: #262626; }
+
+
+/*	Widget with list
+------------------------------------------------*/
+.widget ul li { border-bottom: 1px solid #4d4d4d; }
+.widget ul li a { color: #ffffff; }
+
+
+/*	Tag Widget
+------------------------------------------------*/
+.tag-list a { border-color: #4d4d4d; 	color: #666666; }	
+.tag-list a:hover { border-color: #ffffff; color: #1a1a1a; background: #ffffff; }
+	
+	
+/*	Social Widget
+------------------------------------------------*/	
+.social-share li a { opacity: 0.5; filter: alpha(opacity=50);	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; }		
+.socialmedia-widget li.facebook a { background-position: 0px -30px; }
+.socialmedia-widget li.twitter a { background-position: -30px -30px; }
+.socialmedia-widget li.thumblr a { background-position: -60px -30px; }
+.socialmedia-widget li.vimeo a { background-position: -90px -30px; }
+.socialmedia-widget li.dribbble a { background-position: -120px -30px; }
+.socialmedia-widget li.deviantart a { background-position: -150px -30px; }
+.socialmedia-widget li.behance a { background-position: -180px -30px; }
+.socialmedia-widget li.flickr a { background-position: -210px -30px; }
+.socialmedia-widget li.forrst a { background-position: -240px -30px; }
+.socialmedia-widget li.linkedin a { background-position: -270px -30px; }
+.socialmedia-widget li.rss a { background-position: -300px -30px; }
+.socialmedia-widget li.googleplus a { background-position: -330px -30px; }
+.socialmedia-widget li.pinterest a { background-position: -360px -30px; }
+.socialmedia-widget li.youtube a { background-position: -390px -30px; }
+.socialmedia-widget li.mail a { background-position: -420px -30px; }
+.socialmedia-widget li.instagram a { background-position: -450px -30px; }
+.socialmedia-widget li.xing a { background-position: -480px -30px; }
+.socialmedia-widget li.dropbox a { background-position: -510px -30px; }
+.text-dark .socialmedia-widget li.facebook a { background-position: 0px top; }
+.text-dark .socialmedia-widget li.twitter a { background-position: -30px top; }
+.text-dark .socialmedia-widget li.thumblr a { background-position: -60px top; }
+.text-dark .socialmedia-widget li.vimeo a { background-position: -90px top; }
+.text-dark .socialmedia-widget li.dribbble a { background-position: -120px top; }
+.text-dark .socialmedia-widget li.deviantart a { background-position: -150px top; }
+.text-dark .socialmedia-widget li.behance a { background-position: -180px top; }
+.text-dark .socialmedia-widget li.flickr a { background-position: -210px top; }
+.text-dark .socialmedia-widget li.forrst a { background-position: -240px top; }
+.text-dark .socialmedia-widget li.linkedin a { background-position: -270px top; }
+.text-dark .socialmedia-widget li.rss a { background-position: -300px top; }
+.text-dark .socialmedia-widget li.googleplus a { background-position: -330px top; }
+.text-dark .socialmedia-widget li.pinterest a { background-position: -360px top; }
+.text-dark .socialmedia-widget li.youtube a { background-position: -390px top; }
+.text-dark .socialmedia-widget li.mail a { background-position: -420px top; }
+.text-dark .socialmedia-widget li.instagram a { background-position: -450px top; }
+.text-dark .socialmedia-widget li.xing a { background-position: -480px top; }
+.text-dark .socialmedia-widget li.dropbox a { background-position: -510px top; }
+
+
+/*---------------------------------------------- 
+25. LOADER ICON
+------------------------------------------------*/
+.loader-icon span { border-color: #4d4d4d; }
+.loader-icon .spinner { border-color: #ffffff; 	border-right-color: transparent;	border-top-color: transparent;border-bottom-color: transparent;}
+
+
+/*	Flexslider
+------------------------------------------------*/
+.flex-control-paging li a span { background: #ffffff; }
+.text-dark .flex-control-paging li a span { background: #1a1a1a;  }
+.flex-control-paging li a.flex-active {  border-color: #ffffff; }
+.text-dark .flex-control-paging li a.flex-active { border-color: #1a1a1a;  }
+
+
+/*	JPlayer
+------------------------------------------------*/
+div.jp-interface { background-color:#1a1a1a; }
