@@ -1,0 +1,21 @@
+{
+  "short_name": "RasPiBot",
+  "name": "RasPiBot",
+  "icons": [
+    {
+      "src": "Favicon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "Favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#a8d179",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#a8d179"
+}
