@@ -24,8 +24,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14824">
-              <caret line="872" column="86" selection-start-line="872" selection-start-column="86" selection-end-line="872" selection-end-column="86" />
+            <state relative-caret-position="318">
+              <caret line="422" column="56" selection-start-line="422" selection-start-column="56" selection-end-line="422" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/news.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="634">
+              <caret line="142" column="93" selection-start-line="142" selection-start-column="93" selection-end-line="142" selection-end-column="93" />
               <folding />
             </state>
           </provider>
@@ -68,7 +78,6 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/jd_robot.html" />
         <option value="$PROJECT_DIR$/gettingStarted.html" />
-        <option value="$PROJECT_DIR$/news.html" />
         <option value="$PROJECT_DIR$/theorie1.html" />
         <option value="$PROJECT_DIR$/theorie2.html" />
         <option value="$PROJECT_DIR$/theorie3.html" />
@@ -78,6 +87,7 @@
         <option value="$PROJECT_DIR$/theorie7.html" />
         <option value="$PROJECT_DIR$/theorie8.html" />
         <option value="$PROJECT_DIR$/theorie9.html" />
+        <option value="$PROJECT_DIR$/news.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -261,12 +271,12 @@
       <workItem from="1525819958693" duration="623000" />
       <workItem from="1525828331941" duration="577000" />
       <workItem from="1525960608809" duration="858000" />
-      <workItem from="1538399153237" duration="3678000" />
+      <workItem from="1538399153237" duration="4851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120704000" />
+    <option name="totallyTimeSpent" value="121877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -547,16 +557,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/news.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="104" column="19" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
+        <state relative-caret-position="634">
+          <caret line="142" column="93" selection-start-line="142" selection-start-column="93" selection-end-line="142" selection-end-column="93" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14824">
-          <caret line="872" column="86" selection-start-line="872" selection-start-column="86" selection-end-line="872" selection-end-column="86" />
+        <state relative-caret-position="318">
+          <caret line="422" column="56" selection-start-line="422" selection-start-column="56" selection-end-line="422" selection-end-column="56" />
           <folding />
         </state>
       </provider>
