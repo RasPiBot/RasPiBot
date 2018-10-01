@@ -21,17 +21,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="422" column="56" selection-start-line="422" selection-start-column="56" selection-end-line="422" selection-end-column="56" />
+            <state relative-caret-position="338">
+              <caret line="848" column="80" selection-start-line="848" selection-start-column="80" selection-end-line="848" selection-end-column="80" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jd_robot.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jd_robot.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jd_robot.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="884">
@@ -107,8 +107,8 @@
         <option value="$PROJECT_DIR$/theorie8.html" />
         <option value="$PROJECT_DIR$/theorie9.html" />
         <option value="$PROJECT_DIR$/news.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/gettingStarted.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -291,12 +291,12 @@
       <workItem from="1525819958693" duration="623000" />
       <workItem from="1525828331941" duration="577000" />
       <workItem from="1525960608809" duration="858000" />
-      <workItem from="1538399153237" duration="5640000" />
+      <workItem from="1538399153237" duration="6480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122666000" />
+    <option name="totallyTimeSpent" value="123506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -567,14 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="422" column="56" selection-start-line="422" selection-start-column="56" selection-end-line="422" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gettingStarted.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="788">
@@ -587,6 +579,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="114" column="63" selection-start-line="114" selection-start-column="63" selection-end-line="114" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="848" column="80" selection-start-line="848" selection-start-column="80" selection-end-line="848" selection-end-column="80" />
           <folding />
         </state>
       </provider>
