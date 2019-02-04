@@ -7,9 +7,3 @@ $( document ).ready(function() {
     $( ".srcaption-smallwhite" ).data( "voffset",250 );
 });
 
-
-
-$( ".cartClick" ).click(function() {
-    window.location.replace("checkout.php");
-});
-
