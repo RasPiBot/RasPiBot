@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Le Style.CSS est en dessous de Bootstrap pour l'overrider! -->
+    <title>Title</title>
+        <script src="https://hosted.paysafe.com/checkout/v1/latest/paysafe.checkout.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+<body>
+
+<button onclick="checkout()">Create Token</button>
+
+dGVzdF9zbGF5NjY2OkItcWEyLTAtNWM4OTBlMTMtMC0zMDJkMDIxNDEwZjFkNmFjYmQ5Nzk4NzlkMGQ5YjQwZDkyNzJlZmNmNTAwZTVhNmIwMjE1MDA5NzQxNzYzNTJlODAxMDhiMGE1NmYzZDU4Nzg2ZGVhODYzYWMxMThi
+
+<script>
+    function checkout() {
+        paysafe.checkout.setup("B-qa2-0-5c891690-0-302d02140c352a6fe7c58fa0446836f55b9005cd9a3dee8902150089af6267ba0a650d86a5766e0ad1dbe33958c9f3", {
+            amount: 100,
+            currency: "CAD",
+            environment: "TEST",
+            companyName: "Centre jeunesse tirage 2019"
+        }, function(instance, error, result) {
+
+            if (result.token) {
+                console.log(result.token);
+                console.log(result.paymentMethod);
+
+                if (result.paymentMethod=="Cards") {
+
+                    // use AJAX to send result.token to your merchant server to take CC payment
+                }
+
+                if (result.paymentMethod=="DirectDebit") {
+
+                    // use AJAX to send result.token to your merchant server to take DD payment
+                }
+
+                if (result.paymentMethod=="Interac") {
+
+                    // use AJAX to send result.token to your merchant server to take Interac payment
+                }
+
+            } else {
+
+                // error handling
+            }
+        });
+    }
+</script>
+
+
+<h1>Test Roboto</h1>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
